@@ -1,0 +1,240 @@
+@import '../../vars';
+
+.page-header {
+    height: 20vh;
+    padding: 10px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+
+    background: url('../../assets/header-bg.png');
+    background-size: cover;
+
+    color: white;
+
+    .money-title {
+        font-weight: 700;
+        font-size: 1em;
+        line-height: 1em;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+        .money {
+            font-weight: 600;
+            margin-top: 10px;
+            font-size: 3.2em;
+            line-height: 1em;
+        }
+
+        .plus-button {
+            margin: 0 5px -10px 0;
+            height: 30px;
+            width: auto;
+            cursor: pointer;
+        }
+    }
+}
+
+.diagram-bar {
+    display: flex;
+    flex-direction: row;
+
+    .part {
+        height: 12px;
+
+        &.goals {
+            background-color: black;
+        }
+
+        &.spent {  
+            background-color: #777;
+        }
+
+        &.free {
+            background-color: #d8d8d8;
+        }
+    }
+}
+
+.diagram-legend {
+    margin: 7px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
+    .legend {
+        font-weight: 600;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 10px;
+            margin-right: 7px;
+        }
+    }
+
+    .goals>.dot {
+        background-color: black;
+    }
+
+    .spent>.dot {
+        background-color: #777;
+    }
+
+    .free>.dot {
+        background-color: #d8d8d8;
+    }
+}
+
+.category-header {
+    padding-top: 20px;
+    width: 90vw;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    h2 {
+        font-weight: 700;
+        font-size: 2em;
+    }
+
+    h3 {
+        font-size: 1em;
+        margin-top: 12px;
+        font-weight: 400;
+        color: $main-red;
+    }
+}
+
+.recomendations-preview {
+    margin: 5px 0 10px 20px  !important;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+
+    .item {
+        width: 170px;
+        font-weight: 600;
+        padding: 0 !important;
+
+        i {
+            color: $main-red;
+        }
+    }
+}
+
+
+.goals-placeholder {
+    width: 90%;
+    margin: 5px auto;
+    height: 200px;
+    background-color: $main-red;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: 50px 70px 40px 12px;
+    grid-template-areas: 
+        "l l l l l l i i i i i i"
+        "n n n n n n i i i i i i"
+        "p p p p p p i i i i i i"
+        "b b b b b b b b b b b b";
+    overflow: hidden;
+
+    .current-goal-label {
+        font-size: 1.2em;
+        font-weight: 400;
+        padding: 15px;
+        grid-area: l;
+        z-index: 10;
+    }
+        
+    .name {
+        font-size: 1.5em;
+        font-weight: 700;
+        padding: 15px;
+        grid-area: n;
+        display: flex;
+        align-items: center;
+        z-index: 10;
+    }
+
+    .progress {
+        font-size: 1.1em;
+        font-weight: 600;
+        padding: 15px;
+        grid-area: p;
+        z-index: 10;
+    }
+
+    .image {
+        grid-area: i;
+        height: 200px;
+        width: auto;
+        margin-left: -270px;
+        z-index: 0;
+    }
+
+    .progress-bar {
+        grid-area: b;
+        z-index: 20;
+        width: 90vw;
+        margin-top: 28px;
+        height: 20px;
+        background-color: #d8d8d8;
+        
+        .bar {
+            height: 100%;
+            width: 30%;
+            background-color: black;
+        }
+    }
+}
+
+.news-list {
+    margin-top: -10px;
+    width: 100%;
+
+    .item {
+        margin: 15px;
+        height: 60px;
+        box-shadow: 0 0 5px rgba(0, 0, 0, 0.12);
+        display: flex !important;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 4px;
+
+        .avatar {
+            margin: 0 8px;
+            background-color: #777;
+            border-radius: 20px;
+            width: 35px;
+            height: 35px;
+        }
+
+        .text {
+            width: 60%;
+            font-weight: 700;
+        }
+
+        .more-button {
+            border: none;
+            background: none;
+            color: $main-red;
+            cursor: pointer;
+        }
+    }
+}

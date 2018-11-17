@@ -1,0 +1,71 @@
+@import '../../vars';
+
+.news-tiles {
+    width: 90vw;
+    margin: auto;
+
+    .item {
+        padding: 10px;
+        margin: 10px 0;
+        color: white;
+        border-radius: 4px;
+        background-color: $main_red;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        overflow: hidden;
+
+        .background {
+            margin: -10px 0 -10px -230px;
+            height: 230px;
+        }
+
+        .content {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .item-header {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                margin: 5px 0;
+
+                .avatar {
+                    width: 25px;
+                    height: 25px;
+                    border-radius: 25px;
+                    margin-right: 10px;
+                    background-color: #eee;
+                }
+
+                .name {
+                    font-weight: 700;
+                }
+            }
+
+            .text {
+                font-weight: 600;
+                margin: 5px 0;
+                width: 150px;
+            }
+
+            .more-button {
+                border: none;
+                background-color: white;
+                border-radius: 4px;
+                width: 150px;
+                height: 30px;
+                cursor: pointer;
+                transition: all .3s ease;
+
+                &:hover {
+                    background-color: black;
+                    color: white;
+                }
+            }
+        }
+    }
+}
