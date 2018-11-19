@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/rosbank_consultant/precache-manifest.3b9b95ff77eda66236f149c8d38bc343.js"
+  "/rosbank_consultant/precache-manifest.e06f9372eb6f67f5833600531e4e70b5.js"
 );
 
 workbox.clientsClaim();

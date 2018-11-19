@@ -1,7 +1,7 @@
 {
-  "main.css": "/rosbank_consultant/static/css/main.b94bae5d.chunk.css",
-  "main.js": "/rosbank_consultant/static/js/main.b3aa5cb0.chunk.js",
-  "main.js.map": "/rosbank_consultant/static/js/main.b3aa5cb0.chunk.js.map",
+  "main.css": "/rosbank_consultant/static/css/main.fc627ca3.chunk.css",
+  "main.js": "/rosbank_consultant/static/js/main.4a05a1ef.chunk.js",
+  "main.js.map": "/rosbank_consultant/static/js/main.4a05a1ef.chunk.js.map",
   "static/css/1.b9d74f53.chunk.css": "/rosbank_consultant/static/css/1.b9d74f53.chunk.css",
   "static/js/1.45b4c9d0.chunk.js": "/rosbank_consultant/static/js/1.45b4c9d0.chunk.js",
   "static/js/1.45b4c9d0.chunk.js.map": "/rosbank_consultant/static/js/1.45b4c9d0.chunk.js.map",
@@ -17,10 +17,10 @@
   "static/media/iPhone_XS_white.png": "/rosbank_consultant/static/media/iPhone_XS_white.45b50542.png",
   "static/media/mac_book.png": "/rosbank_consultant/static/media/mac_book.9030af7f.png",
   "static/media/roketa.png": "/rosbank_consultant/static/media/roketa.d542fcf6.png",
-  "static/media/font.css": "/rosbank_consultant/static/media/manrope-bold.81bafd22.otf",
-  "static/css/main.b94bae5d.chunk.css.map": "/rosbank_consultant/static/css/main.b94bae5d.chunk.css.map",
+  "static/media/font.css": "/rosbank_consultant/static/media/manrope-bold.9c22f70e.woff2",
+  "static/css/main.fc627ca3.chunk.css.map": "/rosbank_consultant/static/css/main.fc627ca3.chunk.css.map",
   "static/css/1.b9d74f53.chunk.css.map": "/rosbank_consultant/static/css/1.b9d74f53.chunk.css.map",
   "index.html": "/rosbank_consultant/index.html",
-  "precache-manifest.3b9b95ff77eda66236f149c8d38bc343.js": "/rosbank_consultant/precache-manifest.3b9b95ff77eda66236f149c8d38bc343.js",
+  "precache-manifest.e06f9372eb6f67f5833600531e4e70b5.js": "/rosbank_consultant/precache-manifest.e06f9372eb6f67f5833600531e4e70b5.js",
   "service-worker.js": "/rosbank_consultant/service-worker.js"
 }
